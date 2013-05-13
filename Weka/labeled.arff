@@ -1,0 +1,31 @@
+@relation safe-tweets
+
+@attribute verifiedUser numeric
+@attribute Profanity numeric
+@attribute Explicit numeric
+@attribute HateSpeech numeric
+@attribute hasPhoto numeric
+@attribute RetweetCount numeric
+@attribute class {Safe,Unsafe}
+
+@data
+0,0,0,0,0,2,Safe
+0,0,0,0,1,4,Safe
+0,1,2,0,1,7,Unsafe
+0,0,0,0,0,0,Safe
+0,0,1,0,1,37,Safe
+0,3,1,2,0,73,Unsafe
+0,0,0,4,0,19,Unsafe
+0,0,0,4,0,2,Unsafe
+1,0,0,0,0,456,Safe
+0,0,0,0,0,13,Safe
+1,0,0,0,0,168,Safe
+0,0,0,0,0,1,Safe
+1,0,0,0,0,9,Safe
+0,0,0,0,0,0,Safe
+0,0,0,0,0,0,Safe
+0,0,0,0,0,151,Safe
+0,0,0,0,0,25,Safe
+0,2,0,4,0,64,Unsafe
+0,0,0,4,0,81,Unsafe
+0,0,2,0,0,17,Unsafe
