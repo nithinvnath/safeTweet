@@ -19,6 +19,5 @@ Requirements:
 *Java
 
 ----------------------------------------------
-Contact: vnath.nithin@gmail.com
 
 April 2013
